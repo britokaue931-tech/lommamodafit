@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loma Moda Fit | Moda fitness feminina</title>
+  <meta name="description" content="Leggings, tops, shorts e conjuntos fitness femininos para treinar com conforto e estilo.">
+  <meta property="og:title" content="Loma Moda Fit">
+  <meta property="og:image" content="js/css/img/logoloma.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpeg" href="js/css/img/logoloma.jpg">
+  <link rel="stylesheet" href="js/css/style.css">
+</head>
+<body>
+
+<div class="aviso">Ofertas imperdíveis!!!</div>
+<header class="topo">
+  <a href="#inicio" class="marca" aria-label="Loma Moda Fit, ir para o início"><img src="js/css/img/logo-branca.png" alt="Loma Moda Fit" width="134" height="44"></a>
+  <nav id="menu" aria-label="Principal">
+    <a href="#colecao">Coleção</a>
+    <a href="#diferenciais">Diferenciais</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <button type="button" class="btn-carrinho" id="abrirCarrinho">Sacola <b id="qtd">0</b></button>
+  <button type="button" class="btn-menu" id="btnMenu" aria-expanded="false" aria-controls="menu">Menu</button>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div>
+      <h1>Treine no seu ritmo.</h1>
+      <p>Leggings, tops e conjuntos com tecido que acompanha cada movimento, do treino à caminhada na praia.</p>
+      <a class="btn" href="#colecao">Ver coleção</a>
+    </div>
+    <img src="js/css/img/logoloma.jpg" alt="Mulher correndo na praia ao pôr do sol, de top rosa e fones de ouvido" width="520" height="520">
+  </section>
+  <svg class="onda" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 40C120 0 240 0 360 40S600 80 720 40 960 0 1080 40 1320 80 1440 40V80H0Z"/>
+  </svg>
+
+  <section class="faixa" id="colecao">
+    <h2>Coleção</h2>
+    <p class="sub">Peças para treinar, correr e viver o dia a dia com conforto.</p>
+    <div class="filtros" id="filtros" role="group" aria-label="Filtrar por categoria"></div>
+    <div class="grade" id="grade"></div>
+  </section>
+
+  <section class="faixa lavanda" id="diferenciais">
+    <h2>Feita para se mover</h2>
+    <p class="sub">O que você encontra em toda peça da Lomma.</p>
+    <ul class="diferenciais">
+      <li><strong>Tecido de alta compressão</strong>Segura sem apertar e não marca no agachamento.</li>
+      <li><strong>Secagem rápida</strong>Leve na corrida, no treino e no calor do litoral.</li>
+      <li><strong>Troca fácil</strong>Não serviu? Troque a peça em até 7 dias.</li>
+    </ul>
+  </section>
+
+  <section class="faixa sobre" id="sobre">
+    <h2>Sobre a Lomma</h2>
+    <p>A Lomma nasceu do desejo de vestir mulheres que se movimentam: na academia, na areia ou na rua. Cada peça combina conforto, caimento e cores vivas inspiradas no pôr do sol.</p>
+    <p>Aqui você encontra moda fitness feminina para todos os treinos e todos os ritmos.</p>
+  </section>
+</main>
+
+<footer class="rodape" id="contato">
+  <div>
+    <img class="logo" src="js/css/img/logo-branca.png" alt="Loma Moda Fit" width="158" height="52">
+    <h2>Fale com a gente</h2>
+    <nav class="redes" aria-label="Redes sociais e contato">
+      <a class="botao-contato whatsapp" href="https://wa.me/5583999922010" target="_blank" rel="noopener">
+        <span class="icone" aria-hidden="true"><svg class="logo-rede" viewBox="0 0 24 24" focusable="false"><path d="M12 2a9.8 9.8 0 0 0-8.5 14.7L2 22l5.5-1.4A10 10 0 1 0 12 2Zm0 17.8a8 8 0 0 1-4.1-1.1l-.3-.2-3.3.8.9-3.2-.2-.3A8 8 0 1 1 12 19.8Zm4.4-5.9c-.2-.1-1.3-.7-1.5-.8-.2-.1-.4-.1-.6.1l-.5.7c-.2.2-.3.2-.5.1a6.4 6.4 0 0 1-1.8-1.1 6.8 6.8 0 0 1-1.2-1.5c-.1-.2 0-.3.1-.4l.4-.5.2-.4-.1-.4-.7-1.6c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3a2.4 2.4 0 0 0-.7 1.8c0 1.1.8 2.2 1 2.4.1.2 1.6 2.5 3.9 3.4.5.2.9.3 1.2.4.5.2 1 .1 1.4.1.4-.1 1.3-.5 1.5-1 .2-.5.2-.9.1-1s-.3-.2-.5-.3Z"/></svg></span>
+        <span><strong>WhatsApp</strong><small>(83) 9 9992-2010</small></span>
+      </a>
+      <a class="botao-contato instagram" href="https://www.instagram.com/lommafit/" target="_blank" rel="noopener">
+        <span class="icone" aria-hidden="true"><svg class="logo-rede" viewBox="0 0 24 24" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.7" r="1.1" class="ponto"/></svg></span>
+        <span><strong>Instagram</strong><small>@lommafit</small></span>
+      </a>
+    </nav>
+    <p class="email-contato">Email: <a href="mailto:lommafit@gmail.com">lommafit@gmail.com</a></p>
+  </div>
+  <form id="formNews" novalidate>
+    <h2>Receba novidades</h2>
+    <label for="email">Seu e-mail</label>
+    <div class="linha">
+      <input type="email" id="email" name="email" placeholder="voce@email.com" required autocomplete="email">
+      <button type="submit" class="btn">Quero receber</button>
+    </div>
+    <p id="msgNews" role="status"></p>
+  </form>
+  <small>© <span id="ano"></span> Lomma Moda Fit. Todos os direitos reservados.</small>
+</footer>
+
+<div class="veu" id="veu"></div>
+<aside class="sacola" id="sacola" aria-hidden="true" aria-label="Sacola de compras">
+  <header>
+    <h2>Sua sacola</h2>
+    <button type="button" id="fechar" aria-label="Fechar sacola">✕</button>
+  </header>
+  <ul id="itens"></ul>
+  <footer>
+    <p>Total</p>
+    <strong id="total"><span>À vista: R$ 0,00</span><span>Cartão (+R$ 10,00): R$ 0,00</span></strong>
+    <a class="btn" id="finalizar" href="#" target="_blank" rel="noopener" hidden>Finalizar pelo WhatsApp</a>
+  </footer>
+</aside>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
